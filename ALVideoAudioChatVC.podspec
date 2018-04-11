@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
     s.frameworks = 'UIKit', 'SystemConfiguration', 'CoreMedia', 'GLKit', 'CoreTelephony', 'AVFoundation', 'VideoToolbox', 'AudioToolbox'
     s.library = 'c++'
     s.dependency 'TwilioVideo', '~> 1.1.0'
-    s.dependency 'Applozic', '~> 5.1.0'
+    s.dependency 'Applozic', '~> 5.3.0'
 end
