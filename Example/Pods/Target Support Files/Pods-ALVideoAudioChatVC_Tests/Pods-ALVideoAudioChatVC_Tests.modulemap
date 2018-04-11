@@ -1,0 +1,6 @@
+framework module Pods_ALVideoAudioChatVC_Tests {
+  umbrella header "Pods-ALVideoAudioChatVC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

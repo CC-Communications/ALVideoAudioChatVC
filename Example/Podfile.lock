@@ -1,0 +1,16 @@
+PODS:
+  - ALVideoAudioChatVC (0.1.0)
+
+DEPENDENCIES:
+  - ALVideoAudioChatVC (from `../`)
+
+EXTERNAL SOURCES:
+  ALVideoAudioChatVC:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ALVideoAudioChatVC: f1d3b81a11d5e88feef52c17e439d6f063c8dd50
+
+PODFILE CHECKSUM: 7f99fb82d387f95691138397162e2d175b3fa978
+
+COCOAPODS: 1.4.0

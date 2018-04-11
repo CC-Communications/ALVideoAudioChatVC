@@ -22,7 +22,7 @@ pod 'ALVideoAudioChatVC'
 
 ## Author
 
-IvanKlipok, robalempok@gmail.com
+Robel, robalempok@gmail.com
 
 ## License
 

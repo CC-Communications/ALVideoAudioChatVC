@@ -1,0 +1,6 @@
+framework module ALVideoAudioChatVC {
+  umbrella header "ALVideoAudioChatVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
