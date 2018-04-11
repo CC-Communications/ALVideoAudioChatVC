@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ALVideoAudioChatVC_Tests' do
+  pod 'ALVideoAudioChatVC', :path => '../'
+  
+  
+end
