@@ -13,8 +13,11 @@
 
 + (void)retrieveAccessTokenFromURL:(NSString *)tokenURLStr completion:(void (^)(NSString* token, NSError *err)) completionHandler
 {
+    NSString *encodedUserId = [[ALUserDefaultsHandler getUserId] stringByReplacingOccurrencesOfString:@"|"
+                                                                                           withString:@"%7C"];
+    
     tokenURLStr = [NSString stringWithFormat:@"%@?identity=%@&device=%@",tokenURLStr,
-                   [ALUserDefaultsHandler getUserId],[[NSUUID UUID] UUIDString]];
+                   encodedUserId,[[NSUUID UUID] UUIDString]];
     
     NSURL *tokenURL = [NSURL URLWithString:tokenURLStr];
     NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
