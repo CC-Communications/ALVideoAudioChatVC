@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Robel' => 'robalempok@gmail.com' }
     s.source           = { :git => 'https://github.com/robalem/ALVideoAudioChatVC.git', :tag => s.version.to_s }
+    s.swift_version    = '4.2'
     s.ios.deployment_target = '8.1'
     s.source_files = 'ALVideoAudioChatVC/Classes/**/*'
     s.resources = ['ALVideoAudioChatVC/Resources/*.{storyboard}', 'ALVideoAudioChatVC/Assets/*.{xcassets}']
