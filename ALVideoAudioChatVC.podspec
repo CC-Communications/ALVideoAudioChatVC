@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
     s.library = 'c++'
     s.static_framework = true
     s.dependency 'TwilioVideo', '~> 1.1.0'
-    s.dependency 'Applozic', '~> 6.4.0'
+    s.dependency 'Applozic', '~> 6.6.1'
 end
